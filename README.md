@@ -1,2 +1,2 @@
 # TinyMVC
- 一个Unity可用的MVC框架
+ 一个易用的Unity轻量级MVC框架
