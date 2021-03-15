@@ -1,0 +1,80 @@
+[
+  {
+    "IDs": "gold",
+    "Icon": "gold",
+    "Name": "黄金",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "food",
+    "Icon": "food",
+    "Name": "粮食",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "wood",
+    "Icon": "wood",
+    "Name": "木材",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "metal",
+    "Icon": "metal",
+    "Name": "铁矿",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "stone",
+    "Icon": "stone",
+    "Name": "石料",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "ming_hua",
+    "Icon": "ming_hua",
+    "Name": "名画",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "nv_er_hong",
+    "Icon": "nv_er_hong",
+    "Name": "女儿红",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "jing_shu",
+    "Icon": "jing_shu",
+    "Name": "经书",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "yu_pei",
+    "Icon": "yu_pei",
+    "Name": "玉佩",
+    "Desc": "描述文字"
+  },
+  {
+    "IDs": "shuang_gu_jian",
+    "Icon": "shuang_gu_jian",
+    "Name": "双股剑",
+    "Desc": "刘备的随身佩剑"
+  },
+  {
+    "IDs": "niu_bi_kui_jia",
+    "Icon": "niu_bi_kui_jia",
+    "Name": "牛逼盔甲",
+    "Desc": "一件神秘的盔甲"
+  },
+  {
+    "IDs": "chi_tu_ma",
+    "Icon": "chi_tu_ma",
+    "Name": "赤兔马",
+    "Desc": "吕布和关羽的坐骑"
+  },
+  {
+    "IDs": "qing_long_yan_yu_dao",
+    "Icon": "qing_long_yan_yu_dao",
+    "Name": "青龙偃月刀",
+    "Desc": "关羽的武器"
+  }
+]
