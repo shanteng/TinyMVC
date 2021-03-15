@@ -24,6 +24,11 @@ public enum MediatorDefine
     TEST,
 }
 
+class ProxyNameDefine
+{
+    public const string TEST = "TEST";
+}
+
 public class NotiDefine
 {
     public const string APP_START_UP = "APP_START_UP";
@@ -33,6 +38,8 @@ public class NotiDefine
     public const string WINDOW_DO_HIDE = "WINDOW_DO_HIDE";
 
     public const string WINDOW_HAS_SHOW = "WINDOW_HAS_SHOW";
+
+    public const string TEST_NOTI = "TEST_NOTI";
 }
 
 public class MediatorUtil

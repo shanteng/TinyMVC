@@ -11,7 +11,7 @@ public class UIRoot : MonoBehaviour
     public Camera UICamera => this._camera;
     void Awake()
     {
-        this._camera = this.transform.parent.GetComponent<Camera>();
+        this._camera = this.GetComponent<Canvas>().worldCamera;
         Intance = this;
         this._windowLayers = new Dictionary<WindowLayer, Transform>();
         int count = this.transform.childCount;
