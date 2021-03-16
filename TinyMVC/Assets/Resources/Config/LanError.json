@@ -1,0 +1,154 @@
+[
+  {
+    "IDs": "ValueOutOfRange",
+    "Value": "<color=#ff0000>{0}</color>已经达到上限！"
+  },
+  {
+    "IDs": "CostNotEnought",
+    "Value": "所需<color=#ff0000>{0}</color>不足！"
+  },
+  {
+    "IDs": "CareerRecruitYet",
+    "Value": "当前有{0}正在训练中！"
+  },
+  {
+    "IDs": "CityArmyFull",
+    "Value": "城市兵力已经到达上限{0}！"
+  },
+  {
+    "IDs": "CareerRecruitLimit",
+    "Value": "训练最大上限为{0}！"
+  },
+  {
+    "IDs": "NoArmyCanHarvest",
+    "Value": "没有可以收取的{0}！"
+  },
+  {
+    "IDs": "NoArmyRecruit",
+    "Value": "当前并未训练<color=#ff0000>{0}</color>！"
+  },
+  {
+    "IDs": "SpeedUpCostNotEnought",
+    "Value": "加速所需<color=#ff0000>{0}</color>不足！"
+  },
+  {
+    "IDs": "FinishArmyRecruit",
+    "Value": "已训练完成，可以直接进行收获！"
+  },
+  {
+    "IDs": "TeamNotIdle",
+    "Value": "当前队伍不是空闲状态！"
+  },
+  {
+    "IDs": "TeamNotOpen",
+    "Value": "当前队伍还未解锁！"
+  },
+  {
+    "IDs": "NoPatrol",
+    "Value": "当前城市没有可以派出的斥候！"
+  },
+  {
+    "IDs": "NoVisibleNoPatrol",
+    "Value": "<color=#00ff00>({0},{1})</color>周围没有可视范围，不能进行侦察！"
+  },
+  {
+    "IDs": "IsVisibleNoPatrol",
+    "Value": "<color=#00ff00>({0},{1})</color>已经侦察过，无需侦察！"
+  },
+  {
+    "IDs": "HasSendPatrol",
+    "Value": "已有斥候正在前往<color=#00ff00>({0},{1})</color>侦察中，无需重复派遣！"
+  },
+  {
+    "IDs": "NoPatroller",
+    "Value": "主公还没有斥候，请前往建筑斥候营！"
+  },
+  {
+    "IDs": "CityNoQuestDrop",
+    "Value": "<color=#00ff00>{0}</color>没有什么可探索的秘密了！"
+  },
+  {
+    "IDs": "NoVisibleNoQuest",
+    "Value": "<color=#00ff00>{0}</color>周围没有可视范围，不能进行探索！"
+  },
+  {
+    "IDs": "HeroInTeamNoQuest",
+    "Value": "<color=#00ff00>{0}</color>正在城市队伍中，不能进行探索！"
+  },
+  {
+    "IDs": "HeroHasQuest",
+    "Value": "<color=#00ff00>{0}</color>正在前往探索<color=#00ff00>{1}</color>，无需重复派遣！"
+  },
+  {
+    "IDs": "HeroNoEnegry",
+    "Value": "行动需要<color=#ff0000>{0}点</color>体力，当前英雄体力不足！"
+  },
+  {
+    "IDs": "NoOwnNoQuest",
+    "Value": "<color=#00ff00>{0}</color>还没有被攻占，无法进行探索！"
+  },
+  {
+    "IDs": "NoVisibleNoAttack",
+    "Value": "<color=#00ff00>{0}</color>周围没有可视范围，不能进行攻击！"
+  },
+  {
+    "IDs": "NoHeroFreeToQuest",
+    "Value": "当前没有空闲的英雄可以进行探索！"
+  },
+  {
+    "IDs": "NoArmyNoTeam",
+    "Value": "当前没有兵不可上阵！"
+  },
+  {
+    "IDs": "NoUpPlayer",
+    "Value": "还没有上阵任何英雄！"
+  },
+  {
+    "IDs": "NoTeamCanFight",
+    "Value": "当前没有可出战上阵的队伍！"
+  },
+  {
+    "IDs": "GroupBacking",
+    "Value": "军团正在返回中！"
+  },
+  {
+    "IDs": "GroupFighting",
+    "Value": "军团正在战斗中！"
+  },
+  {
+    "IDs": "GroupHasBack",
+    "Value": "军团已返回城市！"
+  },
+  {
+    "IDs": "SkillType1",
+    "Value": "主动型"
+  },
+  {
+    "IDs": "SkillType2",
+    "Value": "被动型"
+  },
+  {
+    "IDs": "SkillType3",
+    "Value": "队伍型"
+  },
+  {
+    "IDs": "SkillType4",
+    "Value": "连携型"
+  },
+  {
+    "IDs": "PassiveSkillRange",
+    "Value": "无需主动释放"
+  },
+  {
+    "IDs": "UpTeamNeedCount",
+    "Value": "上阵兵力不能为0"
+  },
+  {
+    "IDs": "BornHasOccupy",
+    "Value": "当前位置已经有人了！"
+  },
+  {
+    "IDs": "NoBornPlace",
+    "Value": "没有可以上阵的位置了！"
+  }
+]

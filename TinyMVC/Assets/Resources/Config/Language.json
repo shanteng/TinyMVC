@@ -1,0 +1,790 @@
+[
+  {
+    "IDs": "Percent",
+    "Value": "{0}%"
+  },
+  {
+    "IDs": "CountValue",
+    "Value": "x{0}"
+  },
+  {
+    "IDs": "Wan",
+    "Value": "{0}万"
+  },
+  {
+    "IDs": "Yi",
+    "Value": "{0}亿"
+  },
+  {
+    "IDs": "BuildCD",
+    "Value": "建造时间:{0}"
+  },
+  {
+    "IDs": "HasBuild",
+    "Value": "已建造:{0}/{1}"
+  },
+  {
+    "IDs": "BuildOpenCondition",
+    "Value": "{0}升至{1}级后解锁"
+  },
+  {
+    "IDs": "OpEnter",
+    "Value": "进入"
+  },
+  {
+    "IDs": "OpInfo",
+    "Value": "信息"
+  },
+  {
+    "IDs": "OpUpgrade",
+    "Value": "升级"
+  },
+  {
+    "IDs": "OpCancel",
+    "Value": "取消"
+  },
+  {
+    "IDs": "NameLv",
+    "Value": "{0} {1}级"
+  },
+  {
+    "IDs": "SpotCordinate",
+    "Value": "<color=#00ff00>({0},{1})</color>"
+  },
+  {
+    "IDs": "HourAdd",
+    "Value": "+{0}/小时"
+  },
+  {
+    "IDs": "Progress",
+    "Value": "{0}/{1}"
+  },
+  {
+    "IDs": "ProgressFull",
+    "Value": "{0}<color=#ff0000>/{1}</color>"
+  },
+  {
+    "IDs": "ConfirmTitle",
+    "Value": "提示"
+  },
+  {
+    "IDs": "ConfirmSure",
+    "Value": "确认"
+  },
+  {
+    "IDs": "ConfirmCancel",
+    "Value": "取消"
+  },
+  {
+    "IDs": "CancelUpgradeNotice",
+    "Value": "是否要取消升级？"
+  },
+  {
+    "IDs": "Fire",
+    "Value": "火"
+  },
+  {
+    "IDs": "Wind",
+    "Value": "风"
+  },
+  {
+    "IDs": "Water",
+    "Value": "水"
+  },
+  {
+    "IDs": "Rider",
+    "Value": "骑兵"
+  },
+  {
+    "IDs": "Archer",
+    "Value": "弓兵"
+  },
+  {
+    "IDs": "Infantry",
+    "Value": "步兵"
+  },
+  {
+    "IDs": "RoleLevelExp",
+    "Value": "{0}/{1}"
+  },
+  {
+    "IDs": "RoleLevel",
+    "Value": "Lv.{0}"
+  },
+  {
+    "IDs": "RecruitCondition",
+    "Value": "招募需声望:{0}\n或\n羁绊:{1}"
+  },
+  {
+    "IDs": "OwnCount",
+    "Value": "已有{0}"
+  },
+  {
+    "IDs": "Weapon",
+    "Value": "武器"
+  },
+  {
+    "IDs": "Armor",
+    "Value": "护甲"
+  },
+  {
+    "IDs": "Horse",
+    "Value": "坐骑"
+  },
+  {
+    "IDs": "CancelBuildNotice",
+    "Value": "是否要取消建造？"
+  },
+  {
+    "IDs": "BuildRange",
+    "Value": "{0}x{1}"
+  },
+  {
+    "IDs": "Level",
+    "Value": "等级{0}"
+  },
+  {
+    "IDs": "Distance",
+    "Value": "{0}km"
+  },
+  {
+    "IDs": "LimitReach",
+    "Value": "此类建筑数量已达上限"
+  },
+  {
+    "IDs": "BuildNextCondition",
+    "Value": "{0}升至{1}级后可建造更多"
+  },
+  {
+    "IDs": "Power",
+    "Value": "声望"
+  },
+  {
+    "IDs": "CurNextValue",
+    "Value": "{0}-><color=#00ff00>{1}</color>"
+  },
+  {
+    "IDs": "ResCurrentFull",
+    "Value": "{0}<color=#ff0000>(已存{1})</color>"
+  },
+  {
+    "IDs": "ResCurrent",
+    "Value": "{0}<color=#00ff00>(已存{1})</color>"
+  },
+  {
+    "IDs": "NeedBuildingLevel",
+    "Value": "等级{0} {1}"
+  },
+  {
+    "IDs": "GoToBuild",
+    "Value": "还未建造<color=#ff0000>{0}</color>，请前往建造！"
+  },
+  {
+    "IDs": "ArmyOverFlowHarvest",
+    "Value": "本次收取<color=#ff0000>{0}</color>兵力将超过城市兵力上限，有<color=#ff0000>{1}</color>兵力不会获得，是否继续？"
+  },
+  {
+    "IDs": "ArmyHarvest",
+    "Value": "城市增加了<color=#00ff00>{0}{1}</color>"
+  },
+  {
+    "IDs": "CancelArmyNotice",
+    "Value": "取消训练只会返回<color=#00ff00>{0}%</color>资源，是否继续？"
+  },
+  {
+    "IDs": "SpeedUpNotice",
+    "Value": "是否确认加速完成？"
+  },
+  {
+    "IDs": "NeedCostValue",
+    "Value": "需要消耗:"
+  },
+  {
+    "IDs": "Finished",
+    "Value": "已完成"
+  },
+  {
+    "IDs": "CareerRate1",
+    "Value": "<color=#9D9D9D>C</color>"
+  },
+  {
+    "IDs": "CareerRate2",
+    "Value": "<color=#ffffff>B</color>"
+  },
+  {
+    "IDs": "CareerRate3",
+    "Value": "<color=#96F600>A</color>"
+  },
+  {
+    "IDs": "CareerRate4",
+    "Value": "<color=#E3E715>S</color>"
+  },
+  {
+    "IDs": "FavorCurrent",
+    "Value": "当前羁绊:{0}"
+  },
+  {
+    "IDs": "TavenRefresh",
+    "Value": "英雄刷新剩余:{0}"
+  },
+  {
+    "IDs": "HeroFavorUp",
+    "Value": "<color=#00ff00>和{0}的羁绊更进一步了！</color>"
+  },
+  {
+    "IDs": "HeroFavorDown",
+    "Value": "<color=#ff0000>和{0}的羁绊疏远了！</color>"
+  },
+  {
+    "IDs": "AfterTimeTalk",
+    "Value": "{0}想静一静，过{1}后再来吧！"
+  },
+  {
+    "IDs": "HeroFavorLevelChanged",
+    "Value": "和{0}的羁绊变为{1}！"
+  },
+  {
+    "IDs": "CareerEvaluateDesc",
+    "Value": "职业评级对英雄携带兵种的基础攻击和防御有不同的系数加成"
+  },
+  {
+    "IDs": "PercentAdd",
+    "Value": "<color=#00ff00>+{0}%</color>"
+  },
+  {
+    "IDs": "PercentDes",
+    "Value": "<color=#ff0000>{0}%</color>"
+  },
+  {
+    "IDs": "PercentZeroAdd",
+    "Value": "<color=#ffffff>+{0}%</color>"
+  },
+  {
+    "IDs": "RecruitHeroUnSatisfy",
+    "Value": "招募条件不满足！"
+  },
+  {
+    "IDs": "RecruitHeroSuccess",
+    "Value": "英雄<color=#00ff00>{0}</color>愿效犬马之劳！"
+  },
+  {
+    "IDs": "FullLevel",
+    "Value": "满级"
+  },
+  {
+    "IDs": "HeroMaxBlood",
+    "Value": "部队容量{0}"
+  },
+  {
+    "IDs": "FinishPatrol",
+    "Value": "斥候已完成侦察<color=#00ff00>({0},{1})</color>"
+  },
+  {
+    "IDs": "DoPatrol",
+    "Value": "已派出斥候侦察<color=#00ff00>({0},{1})</color>"
+  },
+  {
+    "IDs": "EmptyVisibleSpot",
+    "Value": "空地"
+  },
+  {
+    "IDs": "EmptyUnVisibleSpot",
+    "Value": "未探索地"
+  },
+  {
+    "IDs": "OpPatrol",
+    "Value": "侦察"
+  },
+  {
+    "IDs": "LeftTime",
+    "Value": "剩余:{0}"
+  },
+  {
+    "IDs": "NeedTime",
+    "Value": "需要:{0}"
+  },
+  {
+    "IDs": "FreePartoller",
+    "Value": "<color=#00ff00>空闲</color>"
+  },
+  {
+    "IDs": "BusyPartoller",
+    "Value": "<color=#FF5F51>侦查中</color>"
+  },
+  {
+    "IDs": "MainCity",
+    "Value": "主城"
+  },
+  {
+    "IDs": "FindCity",
+    "Value": "可视区域解锁发现了<color=#00ff00>{0}</color>"
+  },
+  {
+    "IDs": "OwnCityName",
+    "Value": "<color=#00ff00>{0}</color>"
+  },
+  {
+    "IDs": "DoQuestCity",
+    "Value": "已派出<color=#00ff00>{0}</color>探索<color=#00ff00>{1}</color>"
+  },
+  {
+    "IDs": "ItemCount",
+    "Value": "{0}x{1}"
+  },
+  {
+    "IDs": "QuestCityHasAward",
+    "Value": "<color=#00ff00>{0}</color>探索<color=#00ff00>{1}</color>完成，幸运的获得了<color=#00ff00>{2}</color>！"
+  },
+  {
+    "IDs": "QuestCityNoAward",
+    "Value": "<color=#00ff00>{0}</color>探索<color=#00ff00>{1}</color>完成，一无所获！"
+  },
+  {
+    "IDs": "OwnOccupyCityName",
+    "Value": "<color=#00ff00>{0}(已占)</color>"
+  },
+  {
+    "IDs": "OpQuestCity",
+    "Value": "探索"
+  },
+  {
+    "IDs": "OpCityInfo",
+    "Value": "详情"
+  },
+  {
+    "IDs": "OpAttack",
+    "Value": "进攻"
+  },
+  {
+    "IDs": "OpPreBattle",
+    "Value": "准备战斗"
+  },
+  {
+    "IDs": "TalentFail1",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中与文人论道，对方<color=#00ff00>口才{2}</color>，我方铩羽而归，<color=#ff0000>一无所获！</color>"
+  },
+  {
+    "IDs": "TalentFail2",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中遭遇劫匪，对方<color=#00ff00>切磋{2}</color>，我方马失前蹄，<color=#ff0000>一无所获！</color>"
+  },
+  {
+    "IDs": "TalentFail3",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中偶遇赌局，对方<color=#00ff00>赌博{2}</color>，我方满盘皆输，<color=#ff0000>一无所获！</color>"
+  },
+  {
+    "IDs": "TalentFail4",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中斗诗舞文，对方<color=#00ff00>文采{2}</color>，我方一败涂地，<color=#ff0000>一无所获！</color>"
+  },
+  {
+    "IDs": "TalentSuccess1",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中与文人论道，我方巧舌如簧，语惊四座，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "TalentSuccess2",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中遭遇劫匪，我方勇不可挡，所向披靡，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "TalentSuccess3",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中偶遇赌局，我方手眼通天，财大气粗，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "TalentSuccess4",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中斗诗舞文，我方才高八斗，一鸣惊人，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "LuckyTalentSuccess1",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中与文人论道，虽不敌，却凭运势逆转，竖子成名，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "LuckyTalentSuccess2",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中遭遇劫匪，虽不敌，却凭运势逆转，绝处逢生，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "LuckyTalentSuccess3",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中偶遇赌局，虽不敌，却凭运势逆转，福星高照，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "LuckyTalentSuccess4",
+    "Value": "<color=#00ff00>{0}</color>在探索<color=#00ff00>{1}</color>中斗诗舞文，虽不敌，却凭运势逆转，口吐珠玑，获得<color=#00ff00>{2}</color>"
+  },
+  {
+    "IDs": "BuildFinish",
+    "Value": "<color=#00ff00>{0}</color>建造完成"
+  },
+  {
+    "IDs": "UpgradeBuildFinish",
+    "Value": "<color=#00ff00>{0}</color>升级Lv.{1}完成"
+  },
+  {
+    "IDs": "HeroTalentDesc",
+    "Value": "天赋是英雄在外探索可能遭遇的情况应对能力，数值越高成功率越大"
+  },
+  {
+    "IDs": "LuckyDesc",
+    "Value": "探索能力值不够时，运势也许会为你逆天改命,赢得胜利！"
+  },
+  {
+    "IDs": "Talent1",
+    "Value": "口才"
+  },
+  {
+    "IDs": "Talent2",
+    "Value": "切磋"
+  },
+  {
+    "IDs": "Talent3",
+    "Value": "赌博"
+  },
+  {
+    "IDs": "Talent4",
+    "Value": "文采"
+  },
+  {
+    "IDs": "LuckyValue",
+    "Value": "运势{0}"
+  },
+  {
+    "IDs": "EnegryCurMax",
+    "Value": "体力{0}/{1}"
+  },
+  {
+    "IDs": "QuestTarget",
+    "Value": "探索{0}"
+  },
+  {
+    "IDs": "OwnCitySuccess",
+    "Value": "成功攻占了<color=#00ff00>{0}({1},{2})</color>！"
+  },
+  {
+    "IDs": "PathType1",
+    "Value": "<color=#31CD0B>侦</color>"
+  },
+  {
+    "IDs": "PathType2",
+    "Value": "<color=#FD8174>探</color>"
+  },
+  {
+    "IDs": "PathType3",
+    "Value": "<color=#74D7FD>征</color>"
+  },
+  {
+    "IDs": "PathType4",
+    "Value": "<color=#00D7FD>返</color>"
+  },
+  {
+    "IDs": "DataWithYDMHMS",
+    "Value": "{0}/{1}/{2} {3}:{4}:{5}"
+  },
+  {
+    "IDs": "DataWithMDHM",
+    "Value": "{0}/{1} {2}:{3}"
+  },
+  {
+    "IDs": "DateYearAgo",
+    "Value": "{0}年前"
+  },
+  {
+    "IDs": "DateMonthAgo",
+    "Value": "{0}月前"
+  },
+  {
+    "IDs": "DateWeekAgo",
+    "Value": "{0}周前"
+  },
+  {
+    "IDs": "DateDayAgo",
+    "Value": "{0}天前"
+  },
+  {
+    "IDs": "DateHourAgo",
+    "Value": "{0}小时前"
+  },
+  {
+    "IDs": "DateMinAgo",
+    "Value": "{0}分钟前"
+  },
+  {
+    "IDs": "DateJustAgo",
+    "Value": "刚刚"
+  },
+  {
+    "IDs": "LogItemContent",
+    "Value": "<color=#F3D48B>{0} </color>{1}"
+  },
+  {
+    "IDs": "LogTypeHeroFavorLevel",
+    "Value": "羁"
+  },
+  {
+    "IDs": "LogTypeHeroFavorChange",
+    "Value": "羁"
+  },
+  {
+    "IDs": "LogTypeHarvestArmy",
+    "Value": "兵"
+  },
+  {
+    "IDs": "LogTypeDoPatrol",
+    "Value": "侦"
+  },
+  {
+    "IDs": "LogTypeFinishPatrol",
+    "Value": "侦"
+  },
+  {
+    "IDs": "LogTypeQuestCity",
+    "Value": "探"
+  },
+  {
+    "IDs": "LogTypeQuestCityResult",
+    "Value": "探"
+  },
+  {
+    "IDs": "LogTypePatroFindCity",
+    "Value": "侦"
+  },
+  {
+    "IDs": "LogTypeBuildUp",
+    "Value": "建"
+  },
+  {
+    "IDs": "LogTypeRecruitHeroSuccess",
+    "Value": "募"
+  },
+  {
+    "IDs": "LogTypeOwnCityResp",
+    "Value": "城"
+  },
+  {
+    "IDs": "LogTypeHourTax",
+    "Value": "税"
+  },
+  {
+    "IDs": "LogTypeFinshArmy",
+    "Value": "兵"
+  },
+  {
+    "IDs": "LogTypeAttackCity",
+    "Value": "征"
+  },
+  {
+    "IDs": "LogTypeAttackCityWaitFight",
+    "Value": "战"
+  },
+  {
+    "IDs": "LogTypeAttackCityBack",
+    "Value": "返"
+  },
+  {
+    "IDs": "LogTypeHero",
+    "Value": "英"
+  },
+  {
+    "IDs": "GetHourTax",
+    "Value": "收取税收<color=#00ff00>{0}{1}</color>"
+  },
+  {
+    "IDs": "TeamOpenCondition",
+    "Value": "主城{0}级解锁"
+  },
+  {
+    "IDs": "TeamStatus1",
+    "Value": "空闲"
+  },
+  {
+    "IDs": "TeamStatus2",
+    "Value": "征战"
+  },
+  {
+    "IDs": "TeamBlood",
+    "Value": "兵力 {0}/{1}"
+  },
+  {
+    "IDs": "TeamSetSuccess",
+    "Value": "部队设置完成！"
+  },
+  {
+    "IDs": "ArmyRecruitFinish",
+    "Value": "<color=#00ff00>{0}</color>完成<color=#00ff00>{1}x{2}</color>训练！"
+  },
+  {
+    "IDs": "TeamAttrTips",
+    "Value": "队伍的属性基于：英雄属性系数、职业评级、兵种、兵力来综合进行计算。\n1、攻击：队伍的输出伤害能力。\n2、防御：队伍能够抵御伤害的能力。\n3、血量：队伍的存活能力。\n4、速度：队伍出手攻击的先后顺序。"
+  },
+  {
+    "IDs": "MoraleDesc",
+    "Value": "军团士气:\n1、士气高低会影响英雄战斗的属性。\n2、出征时行军时间越长，士气消耗越大。\n3、到达行军目标后士气每分钟自动恢复5%。"
+  },
+  {
+    "IDs": "EnegryNotEnough",
+    "Value": "体力不足无法出征"
+  },
+  {
+    "IDs": "TeamNotInCity",
+    "Value": "部队不在城内"
+  },
+  {
+    "IDs": "TeamNoBlood",
+    "Value": "英雄没有兵力"
+  },
+  {
+    "IDs": "AttackCityMoveOut",
+    "Value": "<color=#00ff00>{0}</color>军团<color=#00ff00>{1}只部队</color>出征，前往攻占<color=#00ff00>{2}</color>。"
+  },
+  {
+    "IDs": "AttackCityWaitFight",
+    "Value": "<color=#00ff00>{0}</color>军团已经到达<color=#00ff00>{1}</color>，等待你确认进入战斗。"
+  },
+  {
+    "IDs": "AttackCitySuccess",
+    "Value": "军团<color=#00ff00>战胜了 {0}</color>守军，占领了城市获得了<color=#00ff00>{1}</color>。"
+  },
+  {
+    "IDs": "AttackCityFail",
+    "Value": "军团<color=#ff0000>败给了 {0}</color>守军，损兵折将。"
+  },
+  {
+    "IDs": "CityGroupName",
+    "Value": "{0}军团"
+  },
+  {
+    "IDs": "ArriveYet",
+    "Value": "<color=#00ff00>已抵达</color>"
+  },
+  {
+    "IDs": "Moving",
+    "Value": "<color=#ff0000>行军中({0})</color>"
+  },
+  {
+    "IDs": "Backing",
+    "Value": "<color=#FFBD02>返回中({0})</color>"
+  },
+  {
+    "IDs": "AttackCityBack",
+    "Value": "军团已经返回<color=#00ff00>{0}</color>。"
+  },
+  {
+    "IDs": "SelectUpPostion",
+    "Value": "请先选择要上阵的位置！"
+  },
+  {
+    "IDs": "EffectAdd",
+    "Value": "<color=#00ff00>{0}</color>"
+  },
+  {
+    "IDs": "EffectDesc",
+    "Value": "<color=#ff0000>{0}</color>"
+  },
+  {
+    "IDs": "BuffNameDemage",
+    "Value": "血"
+  },
+  {
+    "IDs": "BuffNameDefense_Up",
+    "Value": "防"
+  },
+  {
+    "IDs": "BuffNameHeal",
+    "Value": "血"
+  },
+  {
+    "IDs": "BuffNameAttack_Up",
+    "Value": "攻"
+  },
+  {
+    "IDs": "BuffNameSpeed_Up",
+    "Value": "速"
+  },
+  {
+    "IDs": "BuffNameGoOnDemage",
+    "Value": "血"
+  },
+  {
+    "IDs": "SkillType1",
+    "Value": "主动型"
+  },
+  {
+    "IDs": "SkillType2",
+    "Value": "被动型"
+  },
+  {
+    "IDs": "ReleaseSelfRound",
+    "Value": "自己的行动回合开始时自动触发判断概率是否释放"
+  },
+  {
+    "IDs": "ReleaseBeforeStart",
+    "Value": "战斗开始前自动触发判断概率是否释放"
+  },
+  {
+    "IDs": "ReleaseAfterAttack",
+    "Value": "普通攻击后自动触发判断概率是否释放"
+  },
+  {
+    "IDs": "ReleaseManual",
+    "Value": "手动释放"
+  },
+  {
+    "IDs": "BuffEffectTips",
+    "Value": "Buff效果：{0}\n剩余回合：{1}"
+  },
+  {
+    "IDs": "Forever",
+    "Value": "永久"
+  },
+  {
+    "IDs": "MPDesc",
+    "Value": "MP:\n1、战斗开始时MP为100\n2、释放需要消耗对应MP值\n3、自身行动回合会恢复一定MP"
+  },
+  {
+    "IDs": "MpValue",
+    "Value": "MP:{0}"
+  },
+  {
+    "IDs": "NormalAttack",
+    "Value": "普攻"
+  },
+  {
+    "IDs": "HeroAddExpLevelUp",
+    "Value": "<color=#00ff00>{0}</color>获得了<color=#00ff00>{1}经验</color>，等级提升为<color=#00ff00>Lv.{2}</color>"
+  },
+  {
+    "IDs": "HeroAddExp",
+    "Value": "<color=#00ff00>{0}</color>获得了<color=#00ff00>{1}经验</color>"
+  },
+  {
+    "IDs": "TeamArmyCount",
+    "Value": "{0}/{1}"
+  },
+  {
+    "IDs": "TeamArmyCountWounded",
+    "Value": "{0}/{1}<color=#ff0000>({1}伤兵)</color>"
+  },
+  {
+    "IDs": "BadAnswer",
+    "Value": "<color=#9F2600>再下为你的无知感到悲哀~</color>"
+  },
+  {
+    "IDs": "GoodAnswer",
+    "Value": "<color=#064B00>再下被你的渊博学识而折服~</color>"
+  },
+  {
+    "IDs": "RoundName",
+    "Value": "第{0}轮抽奖"
+  },
+  {
+    "IDs": "RoundNumber",
+    "Value": "人数{0}"
+  },
+  {
+    "IDs": "LotteryNumber",
+    "Value": "当前抽奖参与人数:{0}/{1}({2}人已中奖)"
+  },
+  {
+    "IDs": "LotteryResult",
+    "Value": "{0}-<color=#F3D48B>{1}</color>：获得{2}"
+  },
+  {
+    "IDs": "LotteryAward",
+    "Value": "{0}({1}人)"
+  }
+]
