@@ -33,10 +33,15 @@ public class ResourceProxy : BaseProxy
         callback(sa);
     }
 
+    public static string DevBundlePath => $"Assets/DevAssetBundles/";
     private void LoadManifest()
     {
+#if UNITY_EDITOR
+        _resourcePath = DevBundlePath;
+#else
+         _resourcePath = Path.Combine(Application.persistentDataPath, "AbResources/");
+#endif
         //获取BuildResources.manifest中的关联关系
-        _resourcePath = Path.Combine(Application.persistentDataPath, "AbResources/");
         var path = Path.Combine(_resourcePath, $"BuildResources");
         var bundle = AssetBundle.LoadFromFile(path);
         if (bundle)

@@ -22,6 +22,7 @@ public class BuildAssetBundleEditor : Editor
         CollectAssetBundles("Assets/DevResources/ui", ".pbab", assetBundleBuilds);
         try
         {
+            EditorUtility.DisplayProgressBar("Build", "BuildingAssetBundles", 0.0f);
             if (!Directory.Exists(AssetBundlePath))
             {
                 Directory.CreateDirectory(AssetBundlePath);
@@ -30,9 +31,8 @@ public class BuildAssetBundleEditor : Editor
             var manifest = BuildPipeline.BuildAssetBundles(AssetBundlePath, assetBundleBuilds.ToArray(), BuildAssetBundleOptions.ChunkBasedCompression | BuildAssetBundleOptions.DeterministicAssetBundle, EditorUserBuildSettings.activeBuildTarget);
             if (manifest)
             {
-                Debug.Log("Done");
+                Debug.Log("Successfully Build!");
             }
-
         }
         catch (Exception e)
         {
@@ -42,6 +42,9 @@ public class BuildAssetBundleEditor : Editor
         AssetDatabase.Refresh();
         //将打包好的Ab包复制到DevAssetBundles用于Editor上加载测试
         CopyDirIntoDestDirectory(AssetBundlePath, DevBundlePath, true);
+
+        EditorUtility.DisplayDialog("", "Success AssetBundleIsCopyTo:"+ DevBundlePath, "ok");
+       
     }
 
     private static void CollectAssetBundles(string path, string abextension, List<AssetBundleBuild> assetBundleBuilds)

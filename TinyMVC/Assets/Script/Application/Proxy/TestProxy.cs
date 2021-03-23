@@ -10,6 +10,6 @@ public class TestProxy : BaseProxy
 
     public void OnReceiveNoti(string text)
     {
-        Debug.LogError("TestProxy Has Receive Noti:" + text);
+        Debug.Log("--------TestProxy Has Receive Noti:" + text);
     }
 }
