@@ -6,6 +6,7 @@ public class ModelsInitializeCommand : SimpleCommand
 {
     public override void Execute(INotification notification)
     {
-        Facade.RegisterProxy(new TestProxy());;
+        Facade.RegisterProxy(new TestProxy());
+        Facade.RegisterProxy(new ResourceProxy()); ;
     }
 }

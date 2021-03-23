@@ -5,10 +5,17 @@ using UnityEngine;
 
 public class GameIndex : MonoBehaviour
 {
-    
+    public static bool UseAssetBundle = true;
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
+
+#if UNITY_EDITOR
+        GameIndex.UseAssetBundle = false;
+#else
+        GameIndex.UseAssetBundle = true;
+#endif
+
         //初始化MVC
         ApplicationFacade.instance = GameFacade.instance;
         this.InitMvc();
@@ -16,6 +23,7 @@ public class GameIndex : MonoBehaviour
 
     private void InitMvc()
     {
+
         ApplicationFacade.instance.RegisterCommand(NotiDefine.APP_START_UP, new StartupCommand());
         ApplicationFacade.instance.SendNotification(NotiDefine.APP_START_UP);
         ApplicationFacade.instance.SendNotification(NotiDefine.MVC_STARTED);

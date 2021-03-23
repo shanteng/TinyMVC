@@ -36,7 +36,7 @@ public class Config<T> where T : new()
     public  JArray JsonRead(string name)
     {
         string json = "";
-        string path = "Config/" + name;
+        string path = "config/" + name;
         TextAsset text = Resources.Load<TextAsset>(path);
         if (text == null)
             return null;

@@ -27,6 +27,7 @@ public enum MediatorDefine
 class ProxyNameDefine
 {
     public const string TEST = "TEST";
+    public const string RESOURCE = "RESOURCE";
 }
 
 public class NotiDefine

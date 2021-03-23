@@ -35,7 +35,7 @@ public class ExcelToJsonToolEditor : Editor
         }
         else if (GUILayout.Button("打开Json文件夹"))
         {
-            string path = System.Environment.CurrentDirectory + "/Assets/Resources/Config/init.txt";
+            string path = System.Environment.CurrentDirectory + "/Assets/Resources/config/init.txt";
             EditorUtility.RevealInFinder(path);
         }
 
@@ -75,7 +75,7 @@ public class ExcelToJsonToolEditor : Editor
         string dataPath = System.Environment.CurrentDirectory;
         // xlsx路径
         string xlsxPath = dataPath + "/Excel/" + config.name + ".xlsx";
-        string savePath = Application.dataPath + "/Resources/Config/";
+        string savePath = Application.dataPath + "/Resources/config/";
         FileStream stream = null;
         try
         {
