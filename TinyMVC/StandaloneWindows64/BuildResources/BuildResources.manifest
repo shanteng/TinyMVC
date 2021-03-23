@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3587290550
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: item.atlas
+      Dependencies: {}
+    Info_1:
+      Name: testuiview.pbab
+      Dependencies: {}

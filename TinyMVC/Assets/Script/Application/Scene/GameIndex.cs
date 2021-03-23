@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class GameIndex : MonoBehaviour
 {
+    public bool IsEditorUseAbResMode = false;//是否在Editor上使用AB包加载模式
     public static bool UseAssetBundle = true;
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
 
 #if UNITY_EDITOR
-        GameIndex.UseAssetBundle = false;
+        GameIndex.UseAssetBundle = this.IsEditorUseAbResMode;
 #else
         GameIndex.UseAssetBundle = true;
 #endif
@@ -23,7 +24,6 @@ public class GameIndex : MonoBehaviour
 
     private void InitMvc()
     {
-
         ApplicationFacade.instance.RegisterCommand(NotiDefine.APP_START_UP, new StartupCommand());
         ApplicationFacade.instance.SendNotification(NotiDefine.APP_START_UP);
         ApplicationFacade.instance.SendNotification(NotiDefine.MVC_STARTED);

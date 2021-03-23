@@ -35,12 +35,9 @@ public class ResourceProxy : BaseProxy
 
     private void LoadManifest()
     {
-        _resourcePath = Path.Combine(Application.persistentDataPath, "M6Resources/");
+        //获取BuildResources.manifest中的关联关系
+        _resourcePath = Path.Combine(Application.persistentDataPath, "AbResources/");
         var path = Path.Combine(_resourcePath, $"BuildResources");
-
-        if (false == File.Exists(path))
-            path = CommonFunction.GetStreamAssetPath($"BuildResources");
-     
         var bundle = AssetBundle.LoadFromFile(path);
         if (bundle)
         {
