@@ -1,4 +1,4 @@
-# TinyUnityFramework-TUF
+# TinyUnityFramework(TUF)
 Unity游戏开发整体解决方案，MVC底层/上层设计、资源加载、打包AB、UI控制、数据模型控制分离、性能优化、渲染、配置文件转换解析等功能。
 适合开发独立游戏和单机游戏的Unity架构。即插即用，使用者只需开发应用逻辑即可。
 
