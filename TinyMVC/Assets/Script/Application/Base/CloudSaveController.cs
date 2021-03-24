@@ -34,7 +34,7 @@ public class CloudSaveController : MonoBehaviour
         characterInfo = CloudSave.OpenOrCreateDataset("CharacterInfo");
         //游客账号将不会同步云端数据
         if(PlayerIdentityManager.Current.loginStatus == LoginStatus.LoggedIn)
-            characterInfo.SynchronizeOnConnectivityAsync(this);//同步云端数据
+            characterInfo.SynchronizeAsync(this);//同步云端数据
     }
 
     public void ClearCloudData()
