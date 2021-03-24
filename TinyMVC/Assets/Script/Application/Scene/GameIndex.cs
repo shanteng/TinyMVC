@@ -5,8 +5,23 @@ using UnityEngine;
 
 public class GameIndex : MonoBehaviour
 {
+   
     public bool IsEditorUseAbResMode = false;//是否在Editor上使用AB包加载模式
     public static bool UseAssetBundle = true;
+
+    private static string _userId;
+    public static string UserId
+    {
+        get
+        {
+            return _userId;
+        }
+        set
+        {
+            _userId = value;
+        }
+    }
+
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);

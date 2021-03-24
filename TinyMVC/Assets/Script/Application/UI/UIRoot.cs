@@ -12,7 +12,7 @@ public class UIRoot : MonoBehaviour
     public Camera UICamera => this._camera;
     void Awake()
     {
-        this._SdkUi.gameObject.SetActive(true);
+      
         this._camera = this.GetComponent<Canvas>().worldCamera;
         Intance = this;
         this._windowLayers = new Dictionary<WindowLayer, Transform>();
@@ -23,6 +23,12 @@ public class UIRoot : MonoBehaviour
             layer.gameObject.SetActive(true);
             this._windowLayers.Add((WindowLayer)i+1,layer);
         }
+        this.SetSdkVisible(true);
+    }
+
+    public void SetSdkVisible(bool vis)
+    {
+        this._SdkUi.gameObject.SetActive(vis);
     }
 
     public GameObject InstantiateUIInCenter(GameObject obj, WindowLayer layer, bool NeedAnchor = true, bool NeedZDepth = true)

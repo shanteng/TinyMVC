@@ -42,6 +42,8 @@ public class NotiDefine
     public const string WINDOW_HAS_SHOW = "WINDOW_HAS_SHOW";
 
     public const string TEST_NOTI = "TEST_NOTI";
+    public const string GAME_RESET = "GAME_RESET";
+
 }
 
 public class MediatorUtil
