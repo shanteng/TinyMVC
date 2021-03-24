@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class UIRoot : MonoBehaviour
 {
+    public UnitySdkUI _SdkUi;
     private Camera _camera;
     private Dictionary<WindowLayer,Transform> _windowLayers;
     public static UIRoot Intance { get; private set; }
@@ -11,6 +12,7 @@ public class UIRoot : MonoBehaviour
     public Camera UICamera => this._camera;
     void Awake()
     {
+        this._SdkUi.gameObject.SetActive(true);
         this._camera = this.GetComponent<Canvas>().worldCamera;
         Intance = this;
         this._windowLayers = new Dictionary<WindowLayer, Transform>();

@@ -1,0 +1,118 @@
+ManifestFileVersion: 0
+CRC: 4223199155
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 707cf0dee1bf9932b06942d222442cf0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460db995819f3db7a4f4de75a620d168
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 50b1c220985ef4741b68976462791ca9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c3fea2a1038532e4ba713a517d293bc3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 55cb35d1fc9cf1241bb8ad8e5c5ecbce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e2d04e2002ac2f48aa87734f36f7899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fffea82561805294a92577f0597be8c6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 26134cb57fe570c4495414a24749aedc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e33e8256bba484b2aaa6a5bf9222734c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f38c8e620bc802489ecf4dfe5f5b0ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 189fc3f62e2e9e94ea48c85d66c05718, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4ba1155809d9d7442a052082f28e6638, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a4f4a9992538a4e7ba43bee759b45a67, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a8dab76a5fa56144abe3a756fccef653, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c195502c6bf404f19bb2ff5735195205, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c8a78cece8c0267409463206843ba4e0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af47275db9d9af3448f4700e18d8fa97, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad4be3ad065d16241882787d13a1d010, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 487b198e721f8d541881ff5dbba26431, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c6b9f0bb312bc824989859e611d9bc04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/DevResources/ui/SdkView.prefab
+Dependencies: []

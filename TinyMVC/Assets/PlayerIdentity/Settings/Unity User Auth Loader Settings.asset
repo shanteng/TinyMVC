@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12ae6a348e984fada4c92cb9c2f8e04, type: 3}
   m_Name: Unity User Auth Loader Settings
   m_EditorClassIdentifier: 
-  m_idDomainID: a94135a6-0eca-4afe-b778-cbb0ae3036f5
-  m_oauthClientId: 2ae77088-8202-4f67-9177-9b7d8b90f019
+  m_idDomainID: a5108d21-d39e-45ae-a219-3538fcb66032
+  m_oauthClientId: b32b14ac-e10b-4805-b731-fc787f6eecbc
   m_oauthScopes: openid offline identity.user
   m_apiBaseUrl: https://identity-api.unity.cn
   m_autoCreateAnonymousUser: 0

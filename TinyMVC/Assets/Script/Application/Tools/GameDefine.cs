@@ -22,6 +22,7 @@ public enum WindowState
 public enum MediatorDefine
 {
     TEST,
+    SDK,
 }
 
 class ProxyNameDefine

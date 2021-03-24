@@ -49,7 +49,7 @@ public class GameIndex : MonoBehaviour
 
     private void ShowLogin()
     {
-        //加载第一个UI
-        MediatorUtil.ShowMediator(MediatorDefine.TEST);
+        //加载SDK
+      
     }
 }
