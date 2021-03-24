@@ -30,11 +30,11 @@ public class CloudSaveController : MonoBehaviour
     {
         CloudSaveInitializer.AttachToGameObject(this.gameObject);
         _cloudSave = new CloudSave(PlayerIdentityManager.Current);
+        //打开或者新建 Dataset CharacterInfo
         characterInfo = CloudSave.OpenOrCreateDataset("CharacterInfo");
-
         //游客账号将不会同步云端数据
         if(PlayerIdentityManager.Current.loginStatus == LoginStatus.LoggedIn)
-            characterInfo.SynchronizeOnConnectivityAsync(this);
+            characterInfo.SynchronizeOnConnectivityAsync(this);//同步云端数据
     }
 
     public void ClearCloudData()
@@ -46,33 +46,30 @@ public class CloudSaveController : MonoBehaviour
         {
             characterInfo.Put(list[i].Key, "");
         }
+        //立即同步云端
         characterInfo.SynchronizeOnConnectivityAsync(this);
     }
 
-    public void SaveToCloud(string jsonName, string jsonStr)
+    public void SaveToCloud(string jsonKey, string jsonStr)
     {
-        characterInfo.Put(jsonName, jsonStr);
+        //将数据存储为Json格式，方便序列化和反序列化
+        characterInfo.Put(jsonKey, jsonStr);
+        //立即同步云端
         characterInfo.SynchronizeOnConnectivityAsync(this);
     }
 
-    public string LoadCloudData(string jsonName)
+    public string LoadCloudData(string jsonKey)
     {
-        return characterInfo.Get(jsonName);
+        return characterInfo.Get(jsonKey);
     }
 
     public bool OnConflict(IDataset dataset, IList<SyncConflict> conflicts)
     {
         List<Record> resolvedRecords = new List<Record>();
-
         foreach (SyncConflict conflictRecord in conflicts)
         {
-            // This example resolves all the conflicts using ResolveWithRemoteRecord 
-            // Cloudsave provides the following default conflict resolution methods:
-            //      ResolveWithRemoteRecord - overwrites the local with remote records
-            //      ResolveWithLocalRecord - overwrites the remote with local records
-            //      ResolveWithValue - for developer logic  
-            //使用本地的解决冲突
-            resolvedRecords.Add(conflictRecord.ResolveWithLocalRecord());
+            //使用云端的解决冲突
+            resolvedRecords.Add(conflictRecord.ResolveWithRemoteRecord());
         }
 
         // resolves the conflicts in local storage
@@ -88,6 +85,7 @@ public class CloudSaveController : MonoBehaviour
 
     public void OnSuccess(IDataset dataset)
     {
+        this.characterInfo = dataset;
         Debug.Log("Successfully synced for dataset: " + dataset.Name);
     }
 
