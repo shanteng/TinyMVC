@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7175812978643685672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c8e17f72d65453db117bd7ae5b5e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutomaticLoading: 0
+  m_AutomaticallyVerifyEmail: 1
+  m_AutomaticRunning: 0
+  m_BackendLoader: {fileID: 11400000, guid: 3f3db46dc7dcbd741a7db81716992f0a, type: 2}
+  m_ProviderLoaders: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daaf414a9e9e446a58cde223fbf94d49, type: 3}
+  m_Name: PlayerIdentityGeneralSettings
+  m_EditorClassIdentifier: 
+  m_Keys: 0100000007000000
+  m_Values:
+  - {fileID: 2376792756151042530}
+  - {fileID: 7013121751557302734}
+--- !u!114 &2376792756151042530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dce5a86171f64b899ff3dc76b8448ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: -7175812978643685672}
+  m_InitManagerOnStart: 1
+--- !u!114 &7013121751557302734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dce5a86171f64b899ff3dc76b8448ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 7512440257295123890}
+  m_InitManagerOnStart: 1
+--- !u!114 &7512440257295123890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c8e17f72d65453db117bd7ae5b5e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutomaticLoading: 0
+  m_AutomaticallyVerifyEmail: 1
+  m_AutomaticRunning: 0
+  m_BackendLoader: {fileID: 11400000, guid: 3f3db46dc7dcbd741a7db81716992f0a, type: 2}
+  m_ProviderLoaders: []
