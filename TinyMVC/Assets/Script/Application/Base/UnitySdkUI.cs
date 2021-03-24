@@ -15,10 +15,12 @@ public class UnitySdkUI : MonoBehaviour
     public static UnitySdkUI Intance { get; private set; }
 
     //云存储
+    [HideInInspector]
     public CloudSaveController _cloudSave;
 
     void Awake()
     {
+        this._cloudSave = this.gameObject.GetComponent<CloudSaveController>();
         this._panelController = this.transform.Find("MainCanvas/Panels").GetComponent<PanelController>();
         this._signPanel = this.transform.Find("MainCanvas/Panels/Login/Sign In Panel").GetComponent<SignInPanel>();
         this._accoutPanel = this.transform.Find("MainCanvas/Panels/Account/Account Panel").GetComponent<AccountPanel>();
@@ -28,7 +30,7 @@ public class UnitySdkUI : MonoBehaviour
     public void OnLogin()
     {
         //登录成功后隐藏Sdk
-        UIRoot.Intance.SetSdkVisible(false);
+      //  UIRoot.Intance.SetSdkVisible(false);
         GameIndex.UserId = PlayerIdentityManager.Current.userId;
         this._cloudSave.InitCloud();
     }

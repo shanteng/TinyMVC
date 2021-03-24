@@ -20,12 +20,21 @@ public class CloudSaveController : MonoBehaviour
         }
     }
 
+    public static CloudSaveController Intance { get; private set; }
+    void Awake()
+    {
+        Intance = this;
+    }
+
     public void InitCloud()
     {
-        _cloudSave = new CloudSave(PlayerIdentityManager.Current);
         CloudSaveInitializer.AttachToGameObject(this.gameObject);
+        _cloudSave = new CloudSave(PlayerIdentityManager.Current);
         characterInfo = CloudSave.OpenOrCreateDataset("CharacterInfo");
-        characterInfo.SynchronizeOnConnectivityAsync(this);
+
+        //游客账号将不会同步云端数据
+        if(PlayerIdentityManager.Current.loginStatus == LoginStatus.LoggedIn)
+            characterInfo.SynchronizeOnConnectivityAsync(this);
     }
 
     public void ClearCloudData()
@@ -53,12 +62,28 @@ public class CloudSaveController : MonoBehaviour
 
     public bool OnConflict(IDataset dataset, IList<SyncConflict> conflicts)
     {
-        return true;//不处理
+        List<Record> resolvedRecords = new List<Record>();
+
+        foreach (SyncConflict conflictRecord in conflicts)
+        {
+            // This example resolves all the conflicts using ResolveWithRemoteRecord 
+            // Cloudsave provides the following default conflict resolution methods:
+            //      ResolveWithRemoteRecord - overwrites the local with remote records
+            //      ResolveWithLocalRecord - overwrites the remote with local records
+            //      ResolveWithValue - for developer logic  
+            //使用本地的解决冲突
+            resolvedRecords.Add(conflictRecord.ResolveWithLocalRecord());
+        }
+
+        // resolves the conflicts in local storage
+        dataset.ResolveConflicts(resolvedRecords);
+        return true;
     }
 
     public void OnError(IDataset dataset, DatasetSyncException syncEx)
     {
         Debug.Log("Sync failed for dataset : " + dataset.Name);
+        Debug.LogException(syncEx);
     }
 
     public void OnSuccess(IDataset dataset)
